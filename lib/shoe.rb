@@ -1,6 +1,6 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
-  attr_reader :brand   #brand is reader, because a manual setter is made
+  attr_reader :brand, :BRANDS   #brand is reader, because a manual setter is made
 
   BRANDS = [] #CONSTANT given an empty array, to be filled.
 
