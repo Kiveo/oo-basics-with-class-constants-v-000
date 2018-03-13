@@ -2,7 +2,7 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-  BRANDS = []
+  BRANDS = [] #CONSTANT given an empty array, to be filled.
 
   def initialize(brand)
     @brand = brand
