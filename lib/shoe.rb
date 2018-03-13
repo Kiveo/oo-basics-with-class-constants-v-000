@@ -3,7 +3,7 @@ class Shoe
   attr_reader :brand
 
   BRANDS = []
-  
+
   def initialize(brand)
     @brand = brand
   end
@@ -13,9 +13,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def brand=(brand)
+  def brand=(brand)  #manual write/setter for CONSTANT, and shovel each new genre in CONSTANT array
     @brand = brand
     BRANDS << brand
   end
-  
+
 end
